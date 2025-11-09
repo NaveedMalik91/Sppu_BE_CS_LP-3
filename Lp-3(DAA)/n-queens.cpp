@@ -10,7 +10,9 @@ void printSolution(vector<vector<int>> board) {
     for (int j = 0; j < N; j++) { 
       if (board[i][j])
         cout << "Q "; 
+      else{
         cout << ". "; 
+      }
     }
     cout << "\n"; 
   }
